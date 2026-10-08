@@ -1,4 +1,4 @@
-# 从本地语料里挖可复用句子
+# 从本地语料里挖可复用句子 · Corpus Line Mining
 
 > 给台词库／角色卡／写作填素材，要找**真说过的原句**——不是靠记忆回忆，也不是现编。
 > 会话库直取 → 拆句筛选 → 口吻两轮 → 候选池落盘 → **人审** → 落库。零依赖，只用标准库 `sqlite3`。
@@ -86,8 +86,8 @@ cd <数据根>/cache/<项目>-sandbox && <入库命令 --apply> \
 - [liya-dev-workflow](https://github.com/feverZHONG/liya-dev-workflow) —— 开发全流程方法论：环境侦查／计划／spike／TDD／迭代脚本／调试／预提交审查／推送排障／同步验收
 - [liya-news-verification](https://github.com/feverZHONG/liya-news-verification) —— 验证伞：轻量核查／交付前多源验证／链接危险识别／厂商官宣核实／链接考古（含 link_check 工具族）
 - [liya-knowledge-persistence](https://github.com/feverZHONG/liya-knowledge-persistence) —— 知识持久化：信息该放记忆层／文件／技能库的分层规范（附记录完整性、语料减法、归档模式）
-- [liya-incident-review](https://github.com/feverZHONG/liya-incident-review)
-- [liya-document-translation](https://github.com/feverZHONG/liya-document-translation)
+- [liya-incident-review](https://github.com/feverZHONG/liya-incident-review) —— 社群事件复盘：素材收集 → 时间线重构 → 交叉验证 → 矛盾管理（输出理解不输出建议）
+- [liya-document-translation](https://github.com/feverZHONG/liya-document-translation) —— 论文与长文档翻译：提取全文 → 术语表 → 并行分章 → 质量抽查 → 归档
 
 ## 读者须知
 
