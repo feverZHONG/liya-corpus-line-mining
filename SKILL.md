@@ -83,6 +83,6 @@ cd <数据根>/cache/<项目>-sandbox && <入库命令 --apply> \
 - 台词系统本身（画格子/生成引擎/覆盖率/**语料挖句**）：`dialogue-system-builder`（**用户自有**，只读参考，改动前问用户）——那边的 `dlg mine` 是「原始对话 → 按格子分组的候选池」的**执行层**（吃 JSONL/JSON/纯文本，按角色自己的 dimensions 分组，`--init-keywords` 生成词表骨架，只产候选不自动入库）；本 skill 是它的**方法论正本**（源优先级 / 两轮过滤 / 人审纪律 / 改配置先沙盒）
 - 会话库做「声音漂移审计」（称呼率／自称率／断点）：`voice-drift-audit`
 - 语录入档流程与注释双层规范：`quotes-archive`
-- 旧稿堆／共创对话的判笔、素材卡分级、大纲重排、**现稿写到一半回头挖料的四档产出**：姊妹 skill `draft-archaeology`（原 `references/legacy-draft-cards.md` 已并入它的 `ai-hand-fingerprints.md`／`outline-confirmation.md`／`mining-and-yield.md`）
+- 旧稿堆／共创对话的判笔、素材卡分级、大纲重排、**现稿写到一半回头挖料的四档产出**：姊妹 skill `draft-archaeology`（原 「references/legacy-draft-cards.md」 已并入它的 `ai-hand-fingerprints.md`／`outline-confirmation.md`／`mining-and-yield.md`）
 
 > 上列姊妹 skill 都是**作者环境**的另一套工具（未单独公开）；本仓自包含的部分是上方「语料源 / 会话库直取 / 标注与落库 / 沙盒」那几节。
